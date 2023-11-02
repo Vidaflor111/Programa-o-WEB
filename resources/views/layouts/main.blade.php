@@ -25,7 +25,7 @@
                     </a>
                     <ul class="navbar-nav">
                         <li class="nav-item">
-                            <a href="/" class="nav-link">Eventos</a>
+                            <a href="/eventos" class="nav-link">Eventos</a>
                         </li>
                         <li class="nav-item">
                             <a href="/evento/cadastrar" class="nav-link">Cadastrar Evento</a>
@@ -34,7 +34,7 @@
                             <a href="/entrar" class="nav-link">Entrar</a>
                         </li>
                         <li class="nav-item">
-                            <a href="/cadastrar" class="nav-link">Cadastrar</a>
+                            <a href="/cadastrar" class="nav-link">Cadastrar Conta</a>
                         </li>
                     </ul>
                     <form class="form-inline ml-auto">
