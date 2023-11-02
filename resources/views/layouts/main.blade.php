@@ -24,19 +24,22 @@
                         <img src="/img/logo2.png" alt="Toveen">
                     </a>
                     <ul class="navbar-nav">
-                        <li class="navbar-item">
-                            <a href="/" class="navbar-link">Eventos</a>
+                        <li class="nav-item">
+                            <a href="/" class="nav-link">Eventos</a>
                         </li>
-                        <li class="navbar-item">
-                            <a href="/evento/cadastrar" class="navbar-link">Cadastrar Evento</a>
+                        <li class="nav-item">
+                            <a href="/evento/cadastrar" class="nav-link">Cadastrar Evento</a>
                         </li>
-                        <li class="navbar-item">
-                            <a href="/" class="navbar-link">Entrar</a>
+                        <li class="nav-item">
+                            <a href="/entrar" class="nav-link">Entrar</a>
                         </li>
-                        <li class="navbar-item">
-                            <a href="/" class="navbar-link">Cadastrar</a>
+                        <li class="nav-item">
+                            <a href="/cadastrar" class="nav-link">Cadastrar</a>
                         </li>
                     </ul>
+                    <form class="form-inline ml-auto">
+                        <input type="text" id="search" class= "form-control" placeholder="Pesquisar...">
+                    </form>
                 </div>
             </nav>
         </header>
