@@ -34,7 +34,7 @@
                             <a href="/entrar" class="nav-link">Entrar</a>
                         </li>
                         <li class="nav-item">
-                            <a href="/cadastrar" class="nav-link">Cadastrar Conta</a>
+                            <a href="/conta/cadastrar" class="nav-link">Cadastrar Conta</a>
                         </li>
                     </ul>
                     <form class="form-inline ml-auto">

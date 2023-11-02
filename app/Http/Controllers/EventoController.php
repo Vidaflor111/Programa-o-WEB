@@ -19,6 +19,14 @@ class EventoController extends Controller
         return view('eventos.cadastro');
     }
 
+    public function entrar(){
+        return view('eventos.entrar');
+    }
+
+    public function cadastrarConta(){
+        return view('eventos.cadasconta');
+    }
+
     public function eventos(){
         $busca = request('search');
 

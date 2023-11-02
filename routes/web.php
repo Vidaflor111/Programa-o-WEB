@@ -15,7 +15,7 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\EventoController;
 Route::get('/',[EventoController::class, 'index']);
 Route::get('/evento/cadastrar',[EventoController::class, 'cadastrar']);
-
+Route::get('/conta/cadastrar', [EventoController::class, 'cadastrarConta']);
 Route::get('/eventos', [EventoController::class, 'eventos']);
-
+Route::get('/entrar', [EventoController::class, 'entrar']);
 Route::get('/evento/{id}', [EventoController::class, 'evento']);
