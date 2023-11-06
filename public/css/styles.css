@@ -74,9 +74,37 @@ body {
     display: flex;
 }
 
+#events-container .card {
+    flex: 1 1 0;
+    max-width: 25%;
+    border-radius: 10px;
+    padding: 0;
+    margin: 5px;
+}
+
+#events-container img {
+    max-height: 150px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
 .card .card-date {
     font-size: 12px;
     color: #CCC
+}
+/* Cadastrar evento*/
+#event-create-container{
+    padding: 30px;
+}
+
+#event-create-container label{
+    font-weight: bold;
+}
+
+#event-create-container input,
+#event-create-container select,
+#event-create-container textarea {
+    font-size: 12px;
 }
 
 footer {

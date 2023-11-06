@@ -19,3 +19,5 @@ Route::get('/cadastrar-conta', [EventoController::class, 'cadastrarConta']);
 Route::get('/eventos', [EventoController::class, 'eventos']);
 Route::get('/entrar', [EventoController::class, 'entrar']);
 Route::get('/evento/{id}', [EventoController::class, 'evento']);
+
+Route::post('/eventos',[EventoController::class, 'store']);
