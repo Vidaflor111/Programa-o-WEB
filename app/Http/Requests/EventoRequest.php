@@ -25,7 +25,11 @@ class EventoRequest extends FormRequest
     public function rules()
     {
         return [
-            // 'name' => 'required|min:5|max:255'
+            'titulo' => 'required|string|max:255',
+            'descricao' => 'string',
+            'cidade' => 'string|max:255',
+            'privado' => 'boolean',
+            'image' => 'string',
         ];
     }
 
@@ -37,7 +41,6 @@ class EventoRequest extends FormRequest
     public function attributes()
     {
         return [
-            //
         ];
     }
 

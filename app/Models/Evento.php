@@ -14,4 +14,5 @@ class Evento extends Model
     protected $table = 'eventos';
     protected $guarded = ['id'];
     protected $fillable = ['titulo', 'descricao', 'cidade','privado', 'image'];
+    
 }
