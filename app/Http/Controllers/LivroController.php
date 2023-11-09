@@ -27,6 +27,22 @@ class LivroController extends Controller
     }
 
     public function livros(Request $request){
+        $request->validate([
+            'titulo' => 'required',
+            'autor' => 'required',
+            'ano' => 'required|numeric',
+            'editora' => 'required',
+            'numeroPag' => 'required|numeric',
+        ], [
+            'titulo.required' => 'O campo Nome do evento é obrigatório.',
+            'autor.required' => 'O campo Autor é obrigatório.',
+            'ano.required' => 'O campo Ano de Publicação é obrigatório.',
+            'ano.numeric' => 'O campo Ano de Publicação deve ser um número.',
+            'editora.required' => 'O campo Editora é obrigatório.',
+            'numeroPag.required' => 'O campo Número de Páginas é obrigatório.',
+            'numeroPag.numeric' => 'O campo Número de Páginas deve ser um número.',
+        ]);
+
         $book = new Livro;
         $book-> titulo = $request->titulo;
         $book-> autor = $request->autor;

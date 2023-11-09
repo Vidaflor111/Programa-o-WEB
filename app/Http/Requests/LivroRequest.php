@@ -25,7 +25,11 @@ class LivroRequest extends FormRequest
     public function rules()
     {
         return [
-            // 'name' => 'required|min:5|max:255'
+            'titulo' => 'required',
+            'autor' => 'required',
+            'ano' => 'required|numeric',
+            'editora' => 'required',
+            'numeroPag' => 'required|numeric',
         ];
     }
 
