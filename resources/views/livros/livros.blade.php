@@ -10,7 +10,8 @@
         @foreach($livros as $livro)
             <div class="card col-md-3">
                 <h5 class="card-title">{{$livro->titulo}}</h5>
-                <a href="#" class="btn btn-primary">Saber mais</a>
+                <p class="card-text">Autor: {{$livro->autor}}</p>
+                <p class="card-text">Ano de Publicação: {{$livro->ano}}</p>
             </div>
         @endforeach
     </div>
