@@ -18,7 +18,7 @@
     <form action="/livrospost" method="POST" enctype= "multipart/form-data">
         @csrf
         <div class="form-group mt-3">
-            <label for="titulo">Evento:</label>
+            <label for="titulo">Título do Livro:</label>
             <input type="text" class="form-control" id="titulo" name="titulo" placeholder="Nome do evento">
         </div>
         <div class="form-group mt-3">
