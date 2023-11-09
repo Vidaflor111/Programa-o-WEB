@@ -15,6 +15,9 @@ class EventoController extends Controller
         return view('welcome', ['eventos' => $eventos]);
     }
 
+    
+    
+
     public function cadastrar(){
         return view('eventos.cadastro');
     }
@@ -57,5 +60,6 @@ class EventoController extends Controller
 
         return redirect('/')-> with('msg', 'Evento cadastrado com sucesso!');
     }
+
     
 }

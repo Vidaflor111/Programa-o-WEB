@@ -13,7 +13,8 @@ use Illuminate\Support\Facades\Route;
 |
 */
 use App\Http\Controllers\EventoController;
-Route::get('/',[EventoController::class, 'index']);
+use App\Http\Controllers\LivroController;
+Route::get('/',[LivroController::class, 'index']);
 Route::get('/eventos/cadastrar',[EventoController::class, 'cadastrar']);
 Route::get('/cadastrar-conta', [EventoController::class, 'cadastrarConta']);
 Route::get('/eventos', [EventoController::class, 'eventos']);
@@ -21,3 +22,6 @@ Route::get('/entrar', [EventoController::class, 'entrar']);
 Route::get('/evento/{id}', [EventoController::class, 'evento']);
 
 Route::post('/eventos',[EventoController::class, 'store']);
+Route::post('/livrospost',[LivroController::class, 'livros']);
+Route::get('/livros',[LivroController::class, 'livrosList']);
+Route::get('/livros/cadastrar',[LivroController::class, 'cadastrarLivro']);

@@ -24,6 +24,12 @@
                         <img src="/img/logo2.png" alt="Toveen">
                     </a>
                     <ul class="navbar-nav">
+                    <li class="nav-item">
+                            <a href="/livros" class="nav-link">Livros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="/livros/cadastrar" class="nav-link">Cadastrar Livro</a>
+                        </li>
                         <li class="nav-item">
                             <a href="/eventos" class="nav-link">Eventos</a>
                         </li>
